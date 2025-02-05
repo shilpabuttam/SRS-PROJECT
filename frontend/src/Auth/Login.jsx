@@ -32,10 +32,7 @@ const Login = () => {
   return (
     <div className="container d-flex justify-content-center align-items-center vh-100"
     style={{
-        backgroundImage:"url('https://wallpapers.com/images/featured/4k-business-iuqtn1z643mi4st6.jpg')",
-        backgroundAttachment: "fixed",
-        backgroundRepeat:"no-repeat",
-        objectFit:"cover",
+       backgroundColor:"#989898"
         
     }}>
       <div className="card p-4" style={{ width: "400px" }}>
