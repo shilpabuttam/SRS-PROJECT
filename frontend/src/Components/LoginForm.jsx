@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./LoginForm.css";
 
-export const LoginForm = ({ companyList }) => {
+export const LoginForm = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [mobile, setMobile] = useState("");
@@ -80,11 +80,11 @@ export const LoginForm = ({ companyList }) => {
             <label>Company Id: </label>
             <select value={companyId} onChange={companyIdHandler} required>
               <option value="">Select a Company</option>
-              {companyList.map((company, index) => (
+              {/* {companyList.map((company, index) => (
                 <option key={index} value={company}>
                   {company}
                 </option>
-              ))}
+              ))} */}
             </select>
           </div>
           <div>

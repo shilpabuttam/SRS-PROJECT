@@ -10,6 +10,7 @@ import Service from "./Pages/Service";
 import Contact from "./Pages/Contact";
 import Navbar from "./Components/Navbar";
 
+
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
@@ -17,6 +18,7 @@ const App = () => {
   const handleLogout = () => setIsAuthenticated(false);
 
   return (
+  
     <Router>
       <Navbar isAuthenticated={isAuthenticated} handleLogout={handleLogout} />
       <Routes>
