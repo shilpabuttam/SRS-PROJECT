@@ -1,0 +1,17 @@
+.routes-container {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .move-left {
+    transform: translateX(-85%);
+  }
+  .second-button-container {
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: flex-end; /* Align button to the right */
+  }
+  
+  .move-left {
+    transform: translateX(-150px); /* Moves button 50px to the left */
+  }
+  
